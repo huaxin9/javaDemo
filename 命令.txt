@@ -1,0 +1,12 @@
+创建仓库            git init    
+服务器克隆仓库      git colone https://github.com/geekhall-laoyang/remote-repo.git   
+查看仓库状态        git status 
+中文乱码配置        git config --global core.quotepath false
+文件添加暂存区      
+                    git add file1.txt     
+					git add *.txt            通配符将所有.txt文件添加
+					git add .                当前文件夹下所有文件
+					
+取消暂存区文件      git rm --cached file1.txt
+提交文件            git commit -m "提交日志信息内容"
+文件几种状态：未跟踪Untrack、未修改Unmodified、已修改Modified、已暂存Staged
