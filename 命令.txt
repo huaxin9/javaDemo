@@ -9,4 +9,5 @@
 					
 取消暂存区文件      git rm --cached file1.txt
 提交文件            git commit -m "提交日志信息内容"
+提交日志查看        git log  可选：--oneline(简洁显示)
 文件几种状态：未跟踪Untrack、未修改Unmodified、已修改Modified、已暂存Staged
